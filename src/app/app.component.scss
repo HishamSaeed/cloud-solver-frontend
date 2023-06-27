@@ -1,0 +1,33 @@
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    align-self: self-start;
+}
+
+.solvers {
+    display: flex;
+    width: 514px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    padding: 50px;
+}
+
+.solver {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
